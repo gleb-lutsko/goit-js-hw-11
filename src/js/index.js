@@ -22,7 +22,6 @@ async function getPictures(searchQuery) {
       per_page: 40,
     },
   });
-
   currentPage += 1;
   return response;
 }
